@@ -6,14 +6,13 @@ h1,nav{
     padding: 15px;
     width: 47%;
 }
-.blog{
+.container{
     max-width: 1400px;
     margin: 0 auto;
     width: 100%;
 }
-
-.container{
-    display: inline-block; 
+.blog{
+    display: inline-block;
     vertical-align: top;
     width: 47%;
     padding: 15px;
