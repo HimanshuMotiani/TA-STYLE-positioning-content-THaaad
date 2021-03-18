@@ -1,0 +1,38 @@
+header nav{ 
+    text-align: end;
+}
+h1,nav{
+    display: inline-block;
+    padding: 15px;
+    width: 47%;
+}
+.blog{
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container{
+    display: inline-block; 
+    vertical-align: top;
+    width: 47%;
+    padding: 15px;
+}
+header { 
+    background-color: indigo;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+/* h1{
+    width: 30%;
+}
+nav{
+    width: 70%;
+} */
