@@ -51,12 +51,14 @@ header{
 }
 h1{
     font-size: 42px;
+    padding: 20px 0;
     
 }
 body {
 	line-height: 1;
     font-size: 16px;
-    background-color: mediumpurple;
+    background-color:antiquewhite;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container{
@@ -70,7 +72,8 @@ background-color: white;
 }
 h2{
     font-size: 36px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    
 }
 .col{
     padding: 20px 10px;
@@ -96,11 +99,15 @@ h2{
 img{
     width: 100%;
 }
-p{
+p{ 
     line-height: 1.5;
     margin: 10px 0;
 }
 .quote{
     margin:20px 0;
-    padding-left: 60px;
+    padding: 0 40px;
+    
+}
+.right-sidebar .dark{ 
+    font-weight: 600;
 }
