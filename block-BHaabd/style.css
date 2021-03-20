@@ -46,15 +46,61 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+header{
+    text-align: center;
+}
 h1{
-    font-size: 36px;
+    font-size: 42px;
+    
 }
-body{
-    line-height: 1.5;
+body {
+	line-height: 1;
+    font-size: 16px;
+    background-color: mediumpurple;
+}
 
-}
 .container{
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
+max-width: 1040px;
+padding: 0 32px;
+margin: 0 auto;
+background-color: white;
+}
+.section{
+    margin-top: 20px;
+}
+h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.col{
+    padding: 20px 10px;
+    float: left;
+    margin: .5%;
+}
+.clearfix::before,.clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+.col-1-1{
+    width: 20%;
+}
+.col-1-2{
+    width: 50%;
+}
+.col-1-3{
+    width: 20%;
+}
+img{
+    width: 100%;
+}
+p{
+    line-height: 1.5;
+    margin: 10px 0;
+}
+.quote{
+    margin:20px 0;
+    padding-left: 60px;
 }
