@@ -1,0 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    font-size: 20px;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 32px;
+}
+.header{
+    background-color: #222946;
+    height: 100px;
+    line-height: 100px;
+    position: fixed;
+    width: 100%;
+
+
+}
+article{
+    padding: 80px 0;
+    background-color:powderblue;
+    padding-top: 180px;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    float: left;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+.nav{
+    float:right;
+}
+.nav a{
+    color: white;
+    vertical-align: middle;
+
+}
+.clearfix::after,.clearfix::before{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+/* .test{
+    position: fixed;
+
+} */
+.col{
+float: left;
+width: 45%;
+margin: 1.5%;
+}
+.col .pic{
+    width: 100%;
+}
+h2{
+    font-size: 36px;
+}
+.col .text{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.row{
+    float: left;
+    margin: 1.5%; 
+    width: 100%;
+}
+.row .row-col{
+    width: 31%;
+    margin:10px
+}
+.row img{
+    width: 100%;
+}
+footer{
+    text-align: center;
+    background-color:grey;
+    padding: 20px;
+}
+.sign{
+    float: left;
+}
+.mark-links{
+    float: right;
+}
+.mark-links a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding-right: 20px;
+}
+
+.btn-link{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: mediumaquamarine;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 20px;
+    position: fixed;
+    right: 42px;
+    bottom: 42px;
+    line-height: 80px ;
+    margin-bottom: 30px;
+    
+}
+
+
+
+
+
+
